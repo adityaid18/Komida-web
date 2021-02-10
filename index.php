@@ -76,6 +76,7 @@ include('./database/config.php');
                         <td><?php echo $data['user_address']; ?></td>
                         <td><?php echo $data['user_contact']; ?></td>
                         <td>
+                            <a href="tambah.php" class="btn btn-primary">TAMBAH</a>
                             <a href="edit.php?user_id=<?php echo $data['user_id']; ?>" class="btn btn-warning">EDIT</a>
                             <a href="hapus.php?user_id=<?php echo $data['user_id']; ?>" class="btn btn-danger">HAPUS</a>
                         </td>
